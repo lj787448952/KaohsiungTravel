@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  background: url(../img/Hero.png) center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header h1 {
+  color: #fff;
+  margin: 89px 0 96px 0;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+.header .selectArea {
+  margin-bottom: 107px;
+  border-radius: 3px;
+  font-size: 18px;
+  width: 452px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px solid #FFFFFF;
+}
+
+.hot {
+  border: 1px solid black;
+  width: 800px;
+  height: 112px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: -50px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+
+.hot h3 {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.hot .hotPlace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+.hot .hotPlace li .btn {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 25px;
+  color: #fff;
+  border: none;
+}
+
+.hot .hotPlace li .btn1 {
+  background: #8A82CC;
+}
+
+.hot .hotPlace li .btn2 {
+  background: #FFA782;
+}
+
+.hot .hotPlace li .btn3 {
+  background: #F5D105;
+}
+
+.hot .hotPlace li .btn4 {
+  background: #559AC8;
+}
+
+.content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  width: 944px;
+  border-top: 1px dashed #559AC8;
+}
+
+.content .icon {
+  background: url(../img/icons_down.png) no-repeat center;
+  margin: 0 auto;
+  margin-top: -12px;
+  width: 24px;
+  height: 24px;
+  border: 1px #559AC8 solid;
+  border-radius: 100%;
+}
+
+.content .placeTitle {
+  font-family: SFNSDisplay;
+  font-size: 36px;
+  color: #8A82CC;
+  text-align: center;
+}
+
+.content .list {
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .list li {
+  margin-bottom: 36px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 155px;
+  width: 464px;
+}
+
+.content .img h3, .content .img p {
+  margin: 0 22px;
+  color: #fff;
+}
+
+.content .text {
+  width: 464px;
+}
+
+.content .text img {
+  margin-right: 9px;
+  height: auto;
+}
+
+.content .tel {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .clock, .content .local, .content .tel {
+  padding: 0 23px;
+}
+
+.footer {
+  background: #559AC8;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer a {
+  margin-top: 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer h3 {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #FFD366;
+}
+
+.goTop {
+  position: absolute;
+  right: 0;
+}
+/*# sourceMappingURL=all.css.map */
